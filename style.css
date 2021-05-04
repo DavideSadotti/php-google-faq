@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+/* HEADER */
+header{
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+.rowLogo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.rowLogo > div{
+    display: flex;
+}
+
+.rowLogo > div:first-of-type > p{
+    align-self: center;
+    font-size: 22px;
+    color: gray;
+}
+
+.rowLogo > div:last-of-type{
+    align-self: center;
+}
+
+.rowLogo > div:last-of-type > div{
+    margin: 0 10px;
+}
+
+.rowLogo > div:last-of-type > div:first-of-type{
+    padding: 8px;
+}
+
+.rowLogo > div:last-of-type > div:first-of-type:hover{
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 50%;
+}
+
+.rowLogo > div:last-of-type i{
+    font-size: 20px;
+    margin: 0 -1px;
+    color: gray;
+}
+
+.rowLogo > div:last-of-type p{
+    color: white;
+    background-color: green;
+    border-radius: 50%;
+    padding: 4px 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rowLogo img{
+    height: 60px;
+}
+
+.rowPag li{
+    display: inline;
+    margin: 0 25px;
+    font-weight: bold;
+    color: gray;
+}
+
+.rowPag li:last-of-type{
+    color: #3367d6;
+    border-bottom: 3px solid #3367d6;
+    padding-bottom: 8px;
+}
+
+/* MAIN */
+.container{
+    width: 998px;
+    margin: 100px auto;
+}
+
+.container h2{
+    margin: 50px 0;
+    color: rgba(0, 0, 0, .7);
+    font-size: 24px;
+}
+
+.container ul, .container ol{
+    margin: 25px;
+}
